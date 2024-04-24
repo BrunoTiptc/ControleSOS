@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaInicial</class>
+ <widget class="QMainWindow" name="TelaInicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>TelaInicial</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>872</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>-10</y>
+      <width>571</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="recursos.qrc">:/background.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>540</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>872</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOp_es">
+    <property name="title">
+     <string>Opções</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuOp_es"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

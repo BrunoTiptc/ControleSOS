@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>background.jpg</file>
+        <file>azul.jfif</file>
+    </qresource>
+    <qresource lang="xml" prefix="/background2"/>
+</RCC>
